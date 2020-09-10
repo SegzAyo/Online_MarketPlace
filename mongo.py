@@ -4,6 +4,7 @@ import os
 MONGODB_URI = os.getenv("MONGO_URI")
 DBS_NAME = "marketPlaceDB"
 COLLECTION_NAME = "myFirstMDB"
+print(MONGODB_URI)
 
 def mongo_connect(url):
     try:
